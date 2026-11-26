@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 278" width="840" height="278" role="img" aria-label="Topología Full-Stack, Cloud y Móvil: Clientes Angular React Mobile conectados a APIs Node FastAPI Real-Time y capa Data Cloud AI">
+  <title>Topología Full-Stack, Cloud y Móvil</title>
+  <defs>
+    <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <pattern id="mGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#93C5FD" stroke-width="0.65" opacity="0.28"/>
+    </pattern>
+    <clipPath id="mClip">
+      <rect x="2" y="2" width="836" height="274" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .m-flow { animation: mDash 2.4s linear infinite; }
+    .m-flow-rev { animation: mDashRev 2.8s linear infinite; }
+    .m-pulse { animation: mPulse 2.3s ease-in-out infinite; }
+    @keyframes mDash { from { stroke-dashoffset: 32; } to { stroke-dashoffset: 0; } }
+    @keyframes mDashRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 32; } }
+    @keyframes mPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+  <g clip-path="url(#mClip)">
+    <rect x="2" y="2" width="836" height="274" rx="14" fill="url(#mBg)"/>
+    <rect x="2" y="2" width="836" height="274" rx="14" fill="url(#mGrid)"/>
+  </g>
+  <rect x="2" y="2" width="836" height="274" rx="14" fill="none" stroke="rgba(100,116,139,0.38)" stroke-width="1.5"/>
+  <circle class="m-pulse" cx="30" cy="29" r="4.5" fill="#0369A1"/>
+  <text x="44" y="33" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">FULL-STACK · CLOUD · MOBILE TOPOLOGY</text>
+  <text x="24" y="56" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="800">Ingeniería Web Empresarial, Tiempo Real &amp; Móvil Nativo</text>
+  <g>
+    <line x1="266" y1="142" x2="299" y2="142" stroke="#CBD5E1" stroke-width="2"/>
+    <path class="m-flow" d="M 266 142 L 299 142" fill="none" stroke="#0284C7" stroke-width="2.2" stroke-dasharray="6 10"/>
+    <line x1="266" y1="196" x2="299" y2="196" stroke="#CBD5E1" stroke-width="2"/>
+    <path class="m-flow-rev" d="M 266 196 L 299 196" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-dasharray="6 10"/>
+    <line x1="541" y1="142" x2="574" y2="142" stroke="#CBD5E1" stroke-width="2"/>
+    <path class="m-flow" d="M 541 142 L 574 142" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-dasharray="6 10"/>
+    <line x1="541" y1="196" x2="574" y2="196" stroke="#CBD5E1" stroke-width="2"/>
+    <path class="m-flow-rev" d="M 541 196 L 574 196" fill="none" stroke="#059669" stroke-width="2.2" stroke-dasharray="6 10"/>
+  </g>
+  <g>
+    <rect x="24" y="72" width="242" height="186" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <rect x="24" y="72" width="242" height="3.5" rx="2" fill="#0284C7"/>
+    <text x="40" y="99" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="12" font-weight="700">01 · CLIENTS &amp; MOBILE</text>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">
+      <rect x="38" y="114" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="132" fill="#0F172A">Angular · RxJS · PWA</text>
+      <rect x="38" y="148" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="166" fill="#0F172A">React 19 · Next.js · Vite</text>
+      <rect x="38" y="182" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="200" fill="#0F172A">D3 · XYFlow · MapLibre</text>
+      <rect x="38" y="216" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="234" fill="#0369A1">Capacitor · Android Kotlin</text>
+    </g>
+  </g>
+  <g>
+    <rect x="299" y="72" width="242" height="186" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <rect x="299" y="72" width="242" height="3.5" rx="2" fill="#2563EB"/>
+    <text x="315" y="99" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="12" font-weight="700">02 · APIS &amp; REAL-TIME</text>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">
+      <rect x="313" y="114" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="325" y="132" fill="#0F172A">Node · Express · Fastify</text>
+      <rect x="313" y="148" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="325" y="166" fill="#0F172A">Socket.IO · OpenAPI · Knex</text>
+      <rect x="313" y="182" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="325" y="200" fill="#0F172A">Python · FastAPI · Redis</text>
+      <rect x="313" y="216" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="325" y="234" fill="#1D4ED8">Stripe · JWT · RBAC · E2E</text>
+    </g>
+  </g>
+  <g>
+    <rect x="574" y="72" width="242" height="186" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <rect x="574" y="72" width="242" height="3.5" rx="2" fill="#059669"/>
+    <text x="590" y="99" fill="#047857" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="12" font-weight="700">03 · DATA, CLOUD &amp; AI</text>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">
+      <rect x="588" y="114" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="600" y="132" fill="#0F172A">PostgreSQL · PL/pgSQL</text>
+      <rect x="588" y="148" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="600" y="166" fill="#0F172A">Supabase · RLS · Edge Fn</text>
+      <rect x="588" y="182" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="600" y="200" fill="#0F172A">AWS S3/SES · Docker GPU</text>
+      <rect x="588" y="216" width="214" height="28" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="600" y="234" fill="#047857">LLMs · MCP · Playwright</text>
+    </g>
+  </g>
+</svg>

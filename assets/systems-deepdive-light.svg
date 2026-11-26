@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 318" width="840" height="318" role="img" aria-label="Planos animados de sistemas profundos: arquitectura de hipervisor AMD-V Ring -1 e ingeniería inversa, motor criptográfico en Rust y flujos distribuidos Lambda">
+  <title>Planos de Sistemas Profundos — Virtualización Ring -1, Rust y Pipelines</title>
+  <defs>
+    <linearGradient id="dBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="dBarL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="dBarR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="dGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#93C5FD" stroke-width="0.65" opacity="0.28"/>
+    </pattern>
+    <clipPath id="dClip">
+      <rect x="2" y="2" width="836" height="314" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .d-flow { animation: dDash 2.6s linear infinite; }
+    .d-flow-rev { animation: dDashRev 2.2s linear infinite; }
+    .d-pulse { animation: dPulse 2.2s ease-in-out infinite; }
+    @keyframes dDash { from { stroke-dashoffset: 36; } to { stroke-dashoffset: 0; } }
+    @keyframes dDashRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 36; } }
+    @keyframes dPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.32; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+  <g clip-path="url(#dClip)">
+    <rect x="2" y="2" width="836" height="314" rx="14" fill="url(#dBg)"/>
+    <rect x="2" y="2" width="836" height="314" rx="14" fill="url(#dGrid)"/>
+  </g>
+  <rect x="2" y="2" width="836" height="314" rx="14" fill="none" stroke="rgba(100,116,139,0.38)" stroke-width="1.5"/>
+  <circle class="d-pulse" cx="30" cy="29" r="4.5" fill="#B45309"/>
+  <text x="44" y="33" fill="#B45309" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">DEEP SYSTEMS BLUEPRINTS · SILICON · CRYPTO · DATA</text>
+  <text x="24" y="56" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="19" font-weight="800">Virtualización Ring -1, Criptografía Rust &amp; Datos Distribuidos</text>
+  <g>
+    <rect x="24" y="70" width="386" height="228" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <rect x="24" y="70" width="386" height="3.5" rx="2" fill="url(#dBarL)"/>
+    <text x="40" y="96" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14.5" font-weight="700">Ring -1 Virtualization &amp; Binary RE</text>
+    <rect x="308" y="80" width="88" height="22" rx="11" fill="#FEF3C7" stroke="#D97706" stroke-width="0.9"/>
+    <text x="352" y="95" text-anchor="middle" fill="#B45309" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">AMD-V SVM</text>
+    <line x1="62" y1="126" x2="62" y2="214" stroke="#CBD5E1" stroke-width="1.8"/>
+    <path class="d-flow" d="M 62 126 L 62 214" fill="none" stroke="#D97706" stroke-width="2.2" stroke-dasharray="7 11"/>
+    <line x1="372" y1="126" x2="372" y2="214" stroke="#CBD5E1" stroke-width="1.8"/>
+    <path class="d-flow-rev" d="M 372 126 L 372 214" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-dasharray="7 11"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">
+      <rect x="78" y="112" width="278" height="28" rx="7" fill="#FFFFFF" stroke="#0284C7" stroke-width="1"/>
+      <text x="90" y="130" fill="#0369A1">RING 3 <tspan fill="#334155" font-weight="500">C++17 · Zero-CRT DX11 / HLSL</tspan></text>
+      <rect x="78" y="148" width="278" height="28" rx="7" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1"/>
+      <text x="90" y="166" fill="#6D28D9">RING 0 <tspan fill="#334155" font-weight="500">WDK Kernel · VMMCALL · PTEs</tspan></text>
+      <rect x="78" y="184" width="278" height="28" rx="7" fill="#FFFFFF" stroke="#D97706" stroke-width="1.1"/>
+      <text x="90" y="202" fill="#B45309">RING -1 <tspan fill="#334155" font-weight="500">SVM · VMCB · 4-Level NPT</tspan></text>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">
+      <rect x="38" y="226" width="172" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="243" fill="#B45309">GIF=0 <tspan fill="#334155" font-weight="500">Host CR3 aislado</tspan></text>
+      <rect x="220" y="226" width="174" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="232" y="243" fill="#6D28D9">fTPM 2.0 <tspan fill="#334155" font-weight="500">PCIe · SMBIOS</tspan></text>
+      <rect x="38" y="258" width="172" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="50" y="275" fill="#0369A1">x64 MASM <tspan fill="#334155" font-weight="500">SEH · PE64</tspan></text>
+      <rect x="220" y="258" width="174" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="232" y="275" fill="#047857">IDA · Z3 <tspan fill="#334155" font-weight="500">Frida · Unicorn</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect x="430" y="70" width="386" height="228" rx="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <rect x="430" y="70" width="386" height="3.5" rx="2" fill="url(#dBarR)"/>
+    <text x="446" y="96" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="14.5" font-weight="700">Rust Crypto &amp; Distributed Pipelines</text>
+    <rect x="702" y="80" width="100" height="22" rx="11" fill="#EDE9FE" stroke="#7C3AED" stroke-width="0.9"/>
+    <text x="752" y="95" text-anchor="middle" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">HPC · DATA</text>
+    <line x1="484" y1="132" x2="762" y2="132" stroke="#CBD5E1" stroke-width="1.8"/>
+    <path class="d-flow" d="M 484 132 L 762 132" fill="none" stroke="#7C3AED" stroke-width="2.2" stroke-dasharray="8 10"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10" font-weight="700" text-anchor="middle">
+      <rect x="444" y="112" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+      <text x="484" y="130" fill="#6D28D9">Rust</text>
+      <text x="484" y="144" fill="#475569" font-size="9">Rayon LTO</text>
+      <rect x="536" y="112" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+      <text x="576" y="130" fill="#6D28D9">secp256k1</text>
+      <text x="576" y="144" fill="#475569" font-size="9">Jacobian</text>
+      <rect x="628" y="112" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#D97706" stroke-width="1.1"/>
+      <text x="668" y="130" fill="#B45309">Kangaroo</text>
+      <text x="668" y="144" fill="#475569" font-size="9">O(√W)</text>
+      <rect x="720" y="112" width="82" height="40" rx="7" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+      <text x="761" y="130" fill="#047857">ECDSA</text>
+      <text x="761" y="144" fill="#475569" font-size="9">Wire TX</text>
+    </g>
+    <line x1="484" y1="186" x2="762" y2="186" stroke="#CBD5E1" stroke-width="1.8"/>
+    <path class="d-flow" d="M 484 186 L 762 186" fill="none" stroke="#2563EB" stroke-width="2.2" stroke-dasharray="8 10"/>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10" font-weight="700" text-anchor="middle">
+      <rect x="444" y="166" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+      <text x="484" y="184" fill="#1D4ED8">Kafka</text>
+      <text x="484" y="198" fill="#475569" font-size="9">KRaft 4.x</text>
+      <rect x="536" y="166" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+      <text x="576" y="184" fill="#1D4ED8">HDFS</text>
+      <text x="576" y="198" fill="#475569" font-size="9">MapReduce</text>
+      <rect x="628" y="166" width="80" height="40" rx="7" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.1"/>
+      <text x="668" y="184" fill="#0369A1">PySpark</text>
+      <text x="668" y="198" fill="#475569" font-size="9">Parquet</text>
+      <rect x="720" y="166" width="82" height="40" rx="7" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+      <text x="761" y="184" fill="#047857">PG 17</text>
+      <text x="761" y="198" fill="#475569" font-size="9">AI / API</text>
+    </g>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="10.5" font-weight="700">
+      <rect x="444" y="226" width="172" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="456" y="243" fill="#6D28D9">249K/s <tspan fill="#334155" font-weight="500">Rust 12-Core</tspan></text>
+      <rect x="626" y="226" width="176" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="638" y="243" fill="#1D4ED8">Lambda <tspan fill="#334155" font-weight="500">Batch+Speed</tspan></text>
+      <rect x="444" y="258" width="172" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="456" y="275" fill="#047857">MCP <tspan fill="#334155" font-weight="500">Multi-Agent</tspan></text>
+      <rect x="626" y="258" width="176" height="26" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.9"/>
+      <text x="638" y="275" fill="#0369A1">Docker <tspan fill="#334155" font-weight="500">GPU · Cloud</tspan></text>
+    </g>
+  </g>
+</svg>

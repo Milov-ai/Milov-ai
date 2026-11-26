@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" width="840" height="260" role="img" aria-label="Milov-ai — Ingeniería de Sistemas Ring -1, Criptografía Rust, Datos Distribuidos, Full-Stack y AI">
+  <title>Milov-ai — Full-Spectrum Systems, Data &amp; AI Engineering</title>
+  <defs>
+    <linearGradient id="hBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="hAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="25%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="75%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="hSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#2563EB" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#93C5FD" stroke-width="0.7" opacity="0.28"/>
+    </pattern>
+    <clipPath id="hClip">
+      <rect x="2" y="2" width="836" height="256" rx="14"/>
+    </clipPath>
+  </defs>
+  <style>
+    .spin-cw { animation: spinCW 30s linear infinite; transform-origin: 0px 0px; }
+    .spin-ccw { animation: spinCCW 16s linear infinite; transform-origin: 0px 0px; }
+    .spin-fast { animation: spinCW 10s linear infinite; transform-origin: 0px 0px; }
+    .pulse-dot { animation: pulseFade 2.2s ease-in-out infinite; }
+    .pulse-ring { animation: pulseRing 3.0s ease-in-out infinite; }
+    .bus-flow { animation: dashFlow 3.2s linear infinite; }
+    .bus-flow-rev { animation: dashFlowRev 4.4s linear infinite; }
+    .scan-line { animation: scanSweep 9.5s ease-in-out infinite; }
+    @keyframes spinCW { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes spinCCW { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+    @keyframes pulseFade { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @keyframes pulseRing { 0%, 100% { opacity: 0.85; } 50% { opacity: 0.20; } }
+    @keyframes dashFlow { from { stroke-dashoffset: 64; } to { stroke-dashoffset: 0; } }
+    @keyframes dashFlowRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 64; } }
+    @keyframes scanSweep { 0%, 100% { transform: translateX(-180px); } 50% { transform: translateX(740px); } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+  <g clip-path="url(#hClip)">
+    <rect x="2" y="2" width="836" height="256" rx="14" fill="url(#hBg)"/>
+    <rect x="2" y="2" width="836" height="256" rx="14" fill="url(#hGrid)"/>
+    <circle cx="724" cy="110" r="130" fill="url(#hHalo)"/>
+    <rect class="scan-line" x="0" y="6" width="220" height="248" fill="url(#hSheen)"/>
+    <rect x="2" y="2" width="836" height="4" fill="url(#hAccent)"/>
+  </g>
+  <rect x="2" y="2" width="836" height="256" rx="14" fill="none" stroke="rgba(100,116,139,0.38)" stroke-width="1.5"/>
+  <path d="M 16 26 L 16 16 L 26 16 M 814 16 L 824 16 L 824 26 M 16 234 L 16 244 L 26 244 M 814 244 L 824 244 L 824 234" fill="none" stroke="#2563EB" stroke-width="1.4" opacity="0.55"/>
+  <g transform="translate(34, 24)">
+    <rect x="0" y="0" width="398" height="28" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <circle class="pulse-ring" cx="17" cy="14" r="7" fill="#059669" opacity="0.28"/>
+    <circle class="pulse-dot" cx="17" cy="14" r="4" fill="#047857"/>
+    <text x="31" y="18.5" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="12" font-weight="700">RING -1 TO CLOUD · FULL-SPECTRUM ENGINEERING</text>
+  </g>
+  <text x="34" y="90" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.4">Milov-ai <tspan fill="#6D28D9" font-weight="600">//</tspan> <tspan fill="#334155" font-size="23" font-weight="600">Systems · Data · AI</tspan></text>
+  <text x="34" y="119" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="13.5" font-weight="500">Hypervisors &amp; RE · Rust Crypto · Distributed Data · Full-Stack &amp; Mobile · AI</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="700">
+    <rect x="34" y="142" width="106" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <rect x="34" y="142" width="4" height="34" rx="2" fill="#D97706"/>
+    <text x="89" y="163" text-anchor="middle" fill="#B45309">RING -1 HV</text>
+    <rect x="148" y="142" width="106" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <rect x="148" y="142" width="4" height="34" rx="2" fill="#7C3AED"/>
+    <text x="203" y="163" text-anchor="middle" fill="#6D28D9">RUST CRYPTO</text>
+    <rect x="262" y="142" width="106" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <rect x="262" y="142" width="4" height="34" rx="2" fill="#2563EB"/>
+    <text x="317" y="163" text-anchor="middle" fill="#1D4ED8">DATA CLOUD</text>
+    <rect x="376" y="142" width="106" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <rect x="376" y="142" width="4" height="34" rx="2" fill="#0284C7"/>
+    <text x="431" y="163" text-anchor="middle" fill="#0369A1">FULL-STACK</text>
+    <rect x="490" y="142" width="106" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <rect x="490" y="142" width="4" height="34" rx="2" fill="#059669"/>
+    <text x="545" y="163" text-anchor="middle" fill="#047857">AI AGENTS</text>
+  </g>
+  <g transform="translate(724, 110)">
+    <g class="spin-cw">
+      <circle cx="0" cy="0" r="66" fill="none" stroke="#CBD5E1" stroke-width="1.4" stroke-dasharray="4 6"/>
+      <circle cx="66" cy="0" r="4.5" fill="#D97706"/>
+      <circle cx="-66" cy="0" r="3.5" fill="#059669"/>
+    </g>
+    <g class="spin-ccw">
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#D97706" stroke-width="2.4" stroke-dasharray="46 268" stroke-dashoffset="0"/>
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#7C3AED" stroke-width="2.4" stroke-dasharray="46 268" stroke-dashoffset="-63"/>
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#2563EB" stroke-width="2.4" stroke-dasharray="46 268" stroke-dashoffset="-126"/>
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#0284C7" stroke-width="2.4" stroke-dasharray="46 268" stroke-dashoffset="-189"/>
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#059669" stroke-width="2.4" stroke-dasharray="46 268" stroke-dashoffset="-252"/>
+    </g>
+    <g class="spin-fast">
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#0284C7" stroke-width="1.2" stroke-dasharray="14 10" opacity="0.80"/>
+      <circle cx="0" cy="-35" r="3" fill="#7C3AED"/>
+    </g>
+    <polygon points="0,-24 21,-12 21,12 0,24 -21,12 -21,-12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.6"/>
+    <text x="0" y="5" text-anchor="middle" fill="#0F172A" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="13" font-weight="800">x64</text>
+  </g>
+  <g>
+    <line x1="34" y1="214" x2="806" y2="214" stroke="#CBD5E1" stroke-width="1.6"/>
+    <path d="M 642 214 Q 628 214 628 200 L 628 150 Q 628 136 642 136 L 658 136" fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+    <path class="bus-flow" d="M 34 214 L 806 214" fill="none" stroke="url(#hAccent)" stroke-width="2.4" stroke-dasharray="22 42"/>
+    <path class="bus-flow-rev" d="M 642 214 Q 628 214 628 200 L 628 150 Q 628 136 642 136 L 658 136" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-dasharray="10 22" opacity="0.85"/>
+    <circle cx="34" cy="214" r="4" fill="#D97706"/>
+    <circle cx="290" cy="214" r="4" fill="#7C3AED"/>
+    <circle cx="548" cy="214" r="4" fill="#2563EB"/>
+    <circle cx="806" cy="214" r="4" fill="#059669"/>
+    <text x="34" y="237" fill="#475569" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">01 // RING -1 SILICON &amp; RE</text>
+    <text x="290" y="237" fill="#475569" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">02 // RUST &amp; DATA PIPELINES</text>
+    <text x="548" y="237" fill="#475569" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Consolas, Menlo, 'Liberation Mono', monospace" font-size="11.5" font-weight="600">03 // CLOUD, MOBILE &amp; AI</text>
+  </g>
+</svg>
